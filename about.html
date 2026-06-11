@@ -1,88 +1,151 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>공항 셔츠룸 상세 정보 | 공항 셔츠룸 추천</title>
-  <meta name="description" content="공항의 명소인 김포공항역, 공항동 먹자골목, 송정역 인근 가성비 셔츠룸 팩트북.">
-  <meta name="bpaas-design-system" content="swiss-minimal">
-  <meta name="bpaas-design-theme" content="kr-swiss-minimal">
-  <style>
-    :root {
-      --bg-swiss: #1f1d1a;
-      --card-swiss: #292622;
-      --accent-swiss: #e07a5f;
-      --border-swiss: #3c3732;
-      --text-main: #f4f1de;
-      --text-muted: #beb5a3;
-    }
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body { background-color: var(--bg-swiss); color: var(--text-main); font-family: 'Inter', sans-serif; line-height: 1.75; padding: 0 30px; }
-    .swiss-container { max-width: 960px; margin: 0 auto; padding: 60px 0; }
-    header.swiss-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--border-swiss); padding-bottom: 20px; margin-bottom: 50px; }
-    .swiss-logo { font-weight: 900; font-size: 1.4rem; color: #fff; text-decoration: none; letter-spacing: 0.05em; }
-    .swiss-nav a { color: var(--text-muted); text-decoration: none; margin-left: 30px; font-weight: 700; transition: color 0.2s; }
-    .swiss-nav a:hover { color: var(--accent-swiss); }
-    .swiss-hero { padding: 40px 0 60px; border-bottom: 1px solid var(--border-swiss); margin-bottom: 50px; }
-    .swiss-hero h1 { font-size: 2.8rem; font-weight: 900; color: #fff; line-height: 1.15; letter-spacing: -0.03em; margin-bottom: 25px; }
-    .swiss-phone-banner { display: inline-flex; align-items: center; padding: 18px 35px; background-color: var(--card-swiss); border: 2px solid var(--accent-swiss); border-radius: 4px; font-weight: 800; font-size: 1.25rem; color: #fff; text-decoration: none; transition: background 0.3s; }
-    .swiss-phone-banner:hover { background-color: var(--accent-swiss); }
-    .swiss-layout { display: grid; grid-template-columns: 1fr; gap: 40px; margin-bottom: 50px; }
-    .swiss-section { background-color: var(--card-swiss); border: 1px solid var(--border-swiss); border-radius: 4px; padding: 40px; }
-    .swiss-section h2 { font-size: 1.8rem; font-weight: 800; color: #fff; margin-bottom: 25px; border-bottom: 2px solid var(--accent-swiss); padding-bottom: 10px; display: inline-block; }
-    .swiss-p { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 20px; text-align: justify; }
-    .swiss-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 25px; margin-top: 30px; }
-    .swiss-card { border: 1px solid var(--border-swiss); border-radius: 4px; padding: 25px; background: rgba(0,0,0,0.1); }
-    .swiss-card h3 { font-size: 1.2rem; font-weight: 800; color: #fff; margin-bottom: 12px; }
-    .swiss-card p { font-size: 0.95rem; color: var(--text-muted); }
-    .swiss-review { border-top: 1px solid var(--border-swiss); padding-top: 20px; margin-top: 20px; }
-    .swiss-review-author { font-size: 0.9rem; font-weight: 800; color: var(--accent-swiss); display: flex; justify-content: space-between; margin-bottom: 8px; }
-    footer.swiss-footer { border-top: 2px solid var(--border-swiss); padding-top: 40px; margin-top: 80px; text-align: center; font-size: 0.9rem; color: var(--text-muted); }
-    footer.swiss-footer a { color: var(--text-muted); text-decoration: none; margin: 0 10px; font-weight: 700; }
-    footer.swiss-footer a:hover { color: var(--accent-swiss); }
-    @media(max-width:768px) {
-      .swiss-hero h1 { font-size: 1.9rem; }
-      header.swiss-header { flex-direction: column; gap: 15px; align-items: flex-start; }
-      .swiss-nav { width: 100%; display: flex; justify-content: space-between; }
-      .swiss-nav a { margin: 0; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <title>공항 셔츠룸 추천 | 프리미엄 정보</title>
+    <meta name="description" content="공항 셔츠룸 추천, 프리미엄 서비스와 완벽한 인테리어. 20대부터 50대까지 만족도 1위. VIP 라운지 시스템과 365일 신규 아티스트 매니저 라인업. 24시간 예약 문의 010-6279-0862">
+    <meta name="keywords" content="공항 셔츠룸, 공항 셔츠룸 추천, 인천공항 셔츠룸, 김포공항 셔츠룸, 셔츠룸 시스템, 프리미엄 셔츠룸, 셔츠룸 가격, 셔츠룸 후기">
+    <link rel="canonical" href="https://t3b06-gh-shirts-rc-2.vercel.app">
+    <meta property="og:title" content="공항 셔츠룸 추천 | 프리미엄 셔츠룸 안내">
+    <meta property="og:description" content="공항 셔츠룸 추천, 프리미엄 서비스와 완벽한 인테리어. VIP 라운지 시스템과 365일 신규 아티스트 매니저 라인업. 24시간 예약 문의 010-6279-0862">
+    <style>
+        /* CSS RESET */
+        *,*::before,*::after{ margin:0; padding:0; box-sizing:border-box; }
+        html{ font-size:16px; scroll-behavior:smooth; }
+        body{ font-family:'Pretendard','Noto Sans KR',-apple-system,system-ui,sans-serif; background:#1a1a1a; color:#f0f0f0; line-height:1.6; overflow-x:hidden; }
+        /* BRUTALIST RAW TEXTURE SYSTEM */
+        ::selection{ background:#d4af37; color:#1a1a1a; }
+        a{ color:#d4af37; text-decoration:none; transition:color 0.3s; }
+        a:hover{ color:#ffd700; }
+        img{ max-width:100%; height:auto; display:block; }
+        /* TYPOGRAPHY OVERSIZED */
+        h1{ font-size:clamp(2.5rem,8vw,6rem); font-weight:900; letter-spacing:-0.03em; line-height:0.95; text-transform:uppercase; margin-bottom:0.5em; }
+        h2{ font-size:clamp(1.8rem,5vw,3.5rem); font-weight:800; letter-spacing:-0.02em; margin-bottom:0.6em; }
+        h3{ font-size:clamp(1.2rem,3vw,2rem); font-weight:700; margin-bottom:0.4em; }
+        p{ font-size:clamp(1rem,2vw,1.25rem); margin-bottom:1em; opacity:0.9; }
+        small{ font-size:0.85rem; opacity:0.7; }
+        /* LAYOUT FULL BLEED ASYMMETRIC */
+        header,main,footer{ width:100%; max-width:1400px; margin:0 auto; padding:1.5rem 2rem; }
+        @media(max-width:768px){ header,main,footer{ padding:1rem; } }
+        .full-bleed{ width:100vw; margin-left:calc(-50vw + 50%); }
+        .grid-asymmetric{ display:grid; grid-template-columns:1fr 1.2fr; gap:2rem; }
+        @media(max-width:768px){ .grid-asymmetric{ grid-template-columns:1fr; } }
+        /* COMPONENTS */
+        .hero{ min-height:80vh; display:flex; flex-direction:column; justify-content:center; align-items:flex-start; border-bottom:4px solid #d4af37; padding-bottom:3rem; }
+        .hero h1{ color:#d4af37; }
+        .hero p{ max-width:600px; }
+        .cta{ display:inline-block; background:#d4af37; color:#1a1a1a; font-weight:700; padding:0.8rem 2.5rem; font-size:1.2rem; border:none; cursor:pointer; transition:all 0.3s; text-transform:uppercase; letter-spacing:0.1em; margin-top:1.5rem; border-radius:0; }
+        .cta:hover{ background:#ffd700; transform:scale(1.03); }
+        .card-brutalist{ background:#222; border:2px solid #333; padding:1.5rem; transition:all 0.3s; }
+        .card-brutalist:hover{ border-color:#d4af37; transform:translateY(-4px); }
+        .card-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.5rem; margin:2rem 0; }
+        .faq-item{ border-bottom:1px solid #333; padding:1rem 0; cursor:pointer; }
+        .faq-item summary{ font-weight:700; font-size:1.1rem; list-style:none; display:flex; justify-content:space-between; align-items:center; }
+        .faq-item summary::after{ content:'+'; font-size:1.5rem; transition:transform 0.3s; }
+        .faq-item[open] summary::after{ transform:rotate(45deg); }
+        .footer{ border-top:3px solid #d4af37; padding-top:2rem; margin-top:4rem; display:flex; justify-content:space-between; flex-wrap:wrap; gap:1.5rem; }
+        .footer a{ font-weight:700; }
+        .tel-link{ font-size:1.5rem; letter-spacing:0.1em; color:#d4af37; }
+        .tel-link:hover{ color:#ffd700; }
+        /* NAVIGATION */
+        nav{ display:flex; justify-content:space-between; align-items:center; padding:0.5rem 0; }
+        .nav-links{ display:flex; gap:2rem; list-style:none; }
+        .nav-links a{ font-weight:600; text-transform:uppercase; font-size:0.9rem; letter-spacing:0.05em; }
+        .hamburger-menu{ display:none; flex-direction:column; cursor:pointer; width:30px; height:20px; justify-content:space-between; }
+        .hamburger-menu span{ display:block; height:3px; background:#d4af37; width:100%; transition:all 0.3s; }
+        @media(max-width:768px){
+            .nav-links{ display:none; flex-direction:column; position:absolute; top:60px; left:0; width:100%; background:#1a1a1a; padding:1rem; border-bottom:2px solid #d4af37; }
+            .nav-links.active{ display:flex; }
+            .hamburger-menu{ display:flex; }
+            .hero{ min-height:60vh; }
+        }
+    </style>
 </head>
 <body>
-  <div class="swiss-container">
-    <header class="swiss-header">
-      <a href="index.html" class="swiss-logo">SWISS 공항 CORE</a>
-      <nav class="swiss-nav">
-        <a href="index.html">홈</a>
-        <a href="about.html">상세정보</a>
-        
-      </nav>
+    <header>
+        <nav>
+            <a href="/" style="font-size:1.8rem; font-weight:900; letter-spacing:-0.02em; color:#d4af37;">공항셔츠룸</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/">홈</a></li>
+                <li><a href="/info">정보</a></li>
+                <li><a href="/reservation">예약</a></li>
+                <li><a href="/review">후기</a></li>
+                <li><a href="tel:01062790862" class="tel-link">010-6279-0862</a></li>
+            </ul>
+            <div class="hamburger-menu" id="hamburger" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
     </header>
-    
     <main>
-      <section class="swiss-hero">
-        <h1>로컬 상세 지리 및 스펙 요약</h1>
-        <p style="font-size:1.1rem; color:var(--text-muted);">형이 직접 발로 뛰어 위생 필터링을 거친 리얼 팩트북 리포트다 브로.</p>
-      </section>
-
-      <div class="swiss-layout">
-        <div class="swiss-section">
-          <h2>공항 랜드마크 기반 최적 루트</h2>
-          <p class="swiss-p">로컬 최고의 셔츠룸 트렌드와 투명한 주류 가격을 1대1 비교 분석한 오피셜 정보 아카이브 페이지다 브로. 더 이상 골목길 삐끼들의 가스라이팅 단가 장난질에 지갑 버퍼를 털리지 않도록, 안전하고 검증된 프리미엄 예약 라인만 선별했다. 출발하기 전에 형의 VIP 핫라인 📞 010-6279-0862 로 전화 한 통 날려두는 거 잊지 마라. 매니저 퀄리티도 직접 엄선했다.
-      
-      밤의 전설이 된 브로들의 리얼 이용 후기:
-      - **독점브로 (28, 크리에이터)**: '친구 생파로 셔츠룸 알아보다가 형 추천 라인으로 갔는데 정찰 요금 깔끔하게 나와서 술자리 뇌정지 없이 존잼으로 룸에서 놈.'
-      - **비즈니스맨 (32, 대기업대리)**: '해외 바이어 접대가 있어서 불안했는데 010-6279-0862 로 실장 다이얼 예약 때려두고 갔더니 최고 퀄 서비스 받음.'
-      - **합정동단골 (29, 자영업)**: '다른 데서 바가지 거하게 쓰고 룸 기피증 생겼었는데 형 가이드 보고 극복함. 과일 안주 서비스 퀄이 남다름.'</p>
-          <p class="swiss-p">주요 연계 스팟들은 김포공항역, 공항동 먹자골목, 송정역와 대단히 인접해 있어 도보 5분 이내로 안전 진입이 가능하다 브로. 📞 010-6279-0862 로 미리 테이블이나 룸 예약을 걸어 마찰 없이 에스코트받아라 브로!</p>
-        </div>
-      </div>
-    </main>
-
-    <footer class="swiss-footer">
-      <p>서울특별시 공항 일대 | 연락처: 010-6279-0862</p>
-      <p style="margin-top:20px; opacity:0.4;">&copy; 2026 공항 셔츠룸 Guide. All Rights Reserved.</p>
-    </footer>
-  </div>
+        <section class="hero">
+            <h1>공항 셔츠룸<br>데이터로 증명하는 프리미엄</h1>
+            <p>인천공항·김포공항 인근 최상의 셔츠룸 시스템. 고객 만족도 98%, 월 평균 1,200건 예약 달성. 365일 라인업 유지율 100%.</p>
+            <a href="tel:01062790862" class="cta">지금 예약 · 24시간</a>
+        </section>
+        <section style="margin:4rem 0;">
+            <h2>시스템의 핵심 가치</h2>
+            <div class="card-grid">
+                <div class="card-brutalist">
+                    <h3>VIP 라운지 시스템</h3>
+                    <p>프라이빗 룸, 발렛 파킹, 프리미엄 주류까지. 모든 고객에게 VIP급 서비스를 제공합니다. 2024년 고객 재방문율 82% 기록.</p>
+                </div>
+                <div class="card-brutalist">
+                    <h3>365일 신규 라인업</h3>
+                    <p>매일 새롭게 업데이트되는 아티스트 매니저 라인업. 24시간 내 매니저 교체 가능, 고객 선호도 기반 매칭 시스템.</p>
+                </div>
+                <div class="card-brutalist">
+                    <h3>공항 접근성 최적화</h3>
+                    <p>인천공항 10분, 김포공항 7분 거리. 공항 픽업 무료 서비스, 늦은 도착에도 부담 없는 24시 운영.</p>
+                </div>
+                <div class="card-brutalist">
+                    <h3>데이터 기반 서비스</h3>
+                    <p>2,300건 고객 피드백 분석을 통한 맞춤형 추천. 업계 평균 대비 대기 시간 40% 단축.</p>
+                </div>
+            </div>
+        </section>
+        <section style="margin:4rem 0;">
+            <h2>자주 묻는 질문</h2>
+            <div class="faq-item">
+                <details>
+                    <summary>셔츠룸 이용 가격은 어떻게 되나요?</summary>
+                    <p>기본 시스템 이용료 1시간 200,000원부터 시작합니다. VIP 패키지, 연장, 특정 아티스트 매니저 지정에 따라 차등 적용됩니다. 전화 문의 시 정확한 견적 제공합니다.</p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary>인천공항/김포공항에서 어떻게 가나요?</summary>
+                    <p>인천공항 출구에서 전용 셔틀 10분, 김포공항에서는 7분 거리입니다. 예약 시 공항 픽업 서비스를 신청하시면 무료로 모셔다 드립니다.</p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary>아티스트 매니저는 어떻게 선택하나요?</summary>
+                    <p>홈페이지 및 전화로 현재 라인업 확인 후 원하시는 분을 지정하실 수 있습니다. 사진, 프로필, 실제 후기 데이터를 제공하며, 방문 후 교체도 가능합니다.</p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary>예약은 꼭 해야 하나요?</summary>
+                    <p>원활한 이용을 위해 사전 예약을 권장합니다. 주말 및 피크 타임은 최소 2시간 전 예약 필수. 예약 없이 방문 시 대기 시간이 발생할 수 있습니다.</p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary>실제 후기나 평판이 궁금해요.</summary>
+                    <p>카카오톡 플러스친구, 네이버 예약, 현장 방문 고객 기준 평점 4.8/5.0 유지 중. 20대부터 50대까지 고연령층에서도 재방문율 1위입니다.</p>
+                </details>
+            </div>
+        </section>
+        <section style="margin:4rem 0; padding:2rem; background:#222; border:2px solid #333;">
+            <div class="grid-asymmetric">
+                <div>
+                    <h2>지역별 프리미엄 셔츠룸</h2>
+                    <p>인천광역시 중구·서구, 경기 김포시, 서울 강서구 등 공항 접근성이 뛰어난 핵심 입지에 운영 중입니다.</p>
+                    <ul style="list-style:none; margin-top:1.5rem;">
+                        <li style="padding:0.5rem 0; border-bottom:1px solid #333;">✓ 인천공항점 (중구 운서동) – 24시 운영</li>
 </body>
 </html>
